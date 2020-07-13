@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+  }
+
+  .navbar {
+    height: 65px;
+    box-shadow: 0 10px 50px hsl(0, 0%, 90%);
+    z-index: 2;
+    background-color: white;
+    width: 86.66%;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding-top: 0px !important;
+    position: fixed !important;
+  }
+
+  .container {
+    max-width: 98%;
+    margin: 0 auto;
+  }
+
+  .logo a {
+    float: left;
+    padding: 0 20px ;
+    margin-top: 0;
+    color: hsl(0, 0%, 40%);
+  }
+
+  .menu {
+    float: right;
+  }
+
+  .menu li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  .menu li a {
+    padding: 20px 30px;
+    color: hsl(0, 0%, 60%);
+    float: left;
+    transition: color .3s ease-in-out;
+  }
+
+  .menu li a:hover {
+    color: white;
+    transition: color .5s ease-in-out;
+    background-color: grey;
+  }
