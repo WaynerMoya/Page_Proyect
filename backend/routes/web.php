@@ -11,6 +11,8 @@
 |
 */
 
+// GET
+
 Route::get('/','UserController@index');
 
 Route::get('/contacto','UserController@contacto');
@@ -21,4 +23,11 @@ Route::get('admin/login', 'UserController@loginAdmin');
 
 Route::get('admin/home', 'UserController@adminHome');
 
+Route::get('admin/addImage', 'UserController@adminAddImage');
+
+
+// POST
+
 Route::post('admin/loged', 'UserController@login');
+
+Route::post('admin/uploadedImage', 'UserController@uploadedImage');
