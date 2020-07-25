@@ -156,3 +156,21 @@ body{
 .bg-light{
 	background-color: white !important;
 }
+
+.add-img{
+	width: 100%;
+	border-radius: 10px;
+	background-color: #E8E8E8 ;
+	height: 150px;
+	text-align: center;
+	border: 2px dashed #909090 ;
+}
+
+.add-icon{
+	margin-top: 10%;
+	color:#909090 ;
+}
+
+.hide{
+	display: none;
+}
