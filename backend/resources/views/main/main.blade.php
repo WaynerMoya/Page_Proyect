@@ -8,6 +8,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="{{$loop->index}}" class="{{ $loop->first ? 'active' : '' }}"></li>
             @endforeach
         @endif
+
     </ol>
     <div class="carousel-inner" role="listbox">
         @foreach( $imagenes as $imagen )
@@ -18,6 +19,7 @@
         </div>
         @endforeach
     </div>
+    
 </div>
 
 @endsection
