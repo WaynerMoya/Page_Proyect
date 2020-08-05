@@ -18,7 +18,7 @@
                                     Hola, {{Auth::user()->name}}
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-                                    <a class="nav-link" href="#">Inicio</a>
+                                    <a class="nav-link" href="/">Inicio</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
                                     <a class="nav-link" href="#">Productos</a>
@@ -28,16 +28,16 @@
                                 </li>
                             @else
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-                                    <a class="nav-link" href="#">Inicio</a>
+                                    <a class="nav-link" href="/">Inicio</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
                                     <a class="nav-link" href="#">Productos</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
-                                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                                    <a class="nav-link" href="/nosotros">Sobre Nosotros</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
-                                    <a class="nav-link" href="#">Contacto</a>
+                                    <a class="nav-link" href="/contacto">Contacto</a>
                                 </li>
                             @endif
                         </ul>

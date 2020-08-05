@@ -31,6 +31,17 @@ class UserController extends Controller
     {
         return view('admin/login');
     }
+
+    public function contacto()
+    {
+        return view('contacto/contacto');
+    }
+
+    public function nosotros()
+    {
+        return view('nosotros/nosotros');
+    }
+
     public function index()
     {
         $imagenes = new Image();

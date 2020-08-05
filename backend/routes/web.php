@@ -15,6 +15,10 @@
 
 Route::get('/','UserController@index');
 
+Route::get('/contacto','UserController@contacto');
+
+Route::get('/nosotros','UserController@nosotros');
+
 Route::get('admin/login', 'UserController@loginAdmin');
 
 Route::get('admin/home', 'UserController@adminHome');
