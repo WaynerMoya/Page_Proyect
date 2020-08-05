@@ -21,9 +21,27 @@ Route::get('admin/home', 'UserController@adminHome');
 
 Route::get('admin/addImage', 'UserController@adminAddImage');
 
+Route::get('admin/addImage/{id}', 'UserController@adminEditImage');
+
+Route::get('admin/articulo', 'UserController@adminArticulo');
+
+Route::get('/admin/addArticulo', 'UserController@adminAddArticulo');
+
+Route::get('/admin/addArticulo/{id}', 'UserController@adminEditArticulo');
+
 
 // POST
 
 Route::post('admin/loged', 'UserController@login');
 
 Route::post('admin/uploadedImage', 'UserController@uploadedImage');
+
+Route::post('admin/uploadedImageArticle', 'UserController@uploadedImageArticle');
+
+//DELETE
+
+Route::delete('admin/deleteImage/{id}','UserController@deleteImage');
+
+Route::delete('admin/deleteImageArticulo/{id}','UserController@deleteImageArticulo');
+
+Route::delete('admin/deleteArticulo/{id}','UserController@deleteArticulo');
